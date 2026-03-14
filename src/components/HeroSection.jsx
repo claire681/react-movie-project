@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useMovies } from "../context/MoviesContext";
-import { getImageURL, fetchMovieDetails } from "../Services/api";
+import { getImageURL, fetchMovieDetails } from "../services/api";
 
 function HeroSection() {
   const { trendingMovies, loading } = useMovies();

@@ -4,7 +4,7 @@ import {
   fetchPopularMovies,
   fetchTopRatedMovies,
   fetchMovieDetails,
-} from "../Services/api";
+} from "../services/api";
 
 const MoviesContext = createContext();
 
