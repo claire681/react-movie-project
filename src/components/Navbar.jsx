@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useMovies } from "../context/MoviesContext";
-import { searchMovies } from "../services/api";
+import { searchMovies } from "../services/api.js";
 
 function Navbar() {
   const { openMoviesDetails } = useMovies();

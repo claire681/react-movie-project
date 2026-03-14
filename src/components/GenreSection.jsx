@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useMovies } from "../context/MoviesContext";
-import { fetchMoviesByGenre, getImageURL, fetchMovieDetails } from "../services/api";
+import { fetchMoviesByGenre, getImageURL, fetchMovieDetails } from "../services/api.js";
 
 const customGenres = [
   { id: "action", name: "Action" },

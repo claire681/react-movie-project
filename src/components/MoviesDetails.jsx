@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { fetchMovieDetails, getImageURL } from "../services/api";
+import { fetchMovieDetails, getImageURL } from "../services/api.js";
 
 const MoviesDetails = ({ movieId, onClose }) => {
   const [movie, setMovie] = useState(null);

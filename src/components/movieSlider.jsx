@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { getImageURL } from '../services/api';
+import { getImageURL } from '../services/api.js';
 import { useMovies } from "../context/MoviesContext"
 
 const MovieSlider = ({title, movies, subtitle = ""}) => {
